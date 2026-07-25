@@ -1,1 +1,49 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js Build and Cache Outputs
+/.next/
+/out/
+/build
+
+# SWC Compiler Cache
+.swc/
+
+# Local Environment Variables (Never commit secrets)
+.env*.local
+.env
+!.env.example
+
+# Vercel Deployment Metadata
+.vercel
+
+# Testing & Coverage
+/coverage
+
+# Debug and Log Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# TypeScript Build Info
+*.tsbuildinfo
+next-env.d.ts
+
+# Operating System Files
 .DS_Store
+Thumbs.db
+
+# IDE/Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
