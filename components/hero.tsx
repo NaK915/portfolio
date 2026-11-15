@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
+import passPhoto from "@/public/passsphoto.jpg";
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false);
@@ -69,7 +70,7 @@ export default function Hero() {
               </Button>
               <Button variant="outline" asChild>
                 <a
-                  href="/Resume_Naman.pdf"
+                  href="/portfolio/Resume_Naman.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -119,7 +120,7 @@ export default function Hero() {
             <div className="relative w-full max-w-md mx-auto">
               <div className="relative w-60 h-60 rounded-full overflow-hidden border-4 border-background shadow-xl mx-auto">
                 <Image
-                  src="/passsphoto.jpg"
+                  src={passPhoto}
                   alt="Naman Khattar"
                   fill
                   className="object-cover"

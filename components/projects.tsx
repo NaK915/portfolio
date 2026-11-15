@@ -12,7 +12,7 @@ const projects = [
     title: "Expense Splitting Application",
     description:
       "Built a FastAPI/NextJS expense tracker with a custom debt reduction algorithm, integrating a local HuggingFace and LangChain vector search pipeline to achieve 95% categorization accuracy, while using MongoDB compound indexing for ledger retrieval",
-    image: "/expenses.png?height=600&width=800",
+    image: "/portfolio/expenses.png?height=600&width=800",
     technologies: ["NextJS", "Python", "FastAPI", "MongoDB", "HuggingFace"],
     githubUrl: "https://github.com/NaK915/Expenses-Backend-",
   },
@@ -21,7 +21,7 @@ const projects = [
     title: "Access Restricted Group Vaults",
     description:
       "Deployed a secure, full-stack file management system that leveraged Node.js and AWS S3 pre-signed URLs to guarantee safe, sub-second file retrieval for targeted group and individual sharing among 50+ users.",
-    image: "/argv1.png?height=600&width=800",
+    image: "/portfolio/argv1.png?height=600&width=800",
     technologies: ["React", "Express", "MongoDB", "AWS S3"],
     githubUrl: "https://gitlab.com/NaK915/argv-application",
   },
@@ -30,7 +30,7 @@ const projects = [
     title: "Training and Placement Portal",
     description:
       "Accelerate and Simplify Training and Placement processes by eliminating over 80% of labor-intensive manual work and implementing an automated system with role-based access control and information cross validation.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/portfolio/placeholder.svg?height=600&width=800",
     technologies: ["ReactJS", "ExpressJS", "NodeJS", "TypeScript", "JavaScript", "DynamoDB"],
     githubUrl: "https://github.com/2ybaryl/TnP_Portal",
   },
@@ -39,7 +39,7 @@ const projects = [
     title: "JUET University Website",
     description:
       "Built a website using React, Express, JavaScript and MongoDB for the University with a custom CMS for managing and updating content with over 50+ custom actions.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/portfolio/placeholder.svg?height=600&width=800",
     technologies: ["React", "Node.js", "PostgreSQL", "D3.js"],
     githubUrl: "https://github.com/2ybaryl/JUET-frontend",
   },
@@ -90,7 +90,7 @@ export default function Projects() {
               >
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/portfolio/placeholder.svg"}
                     alt={project.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -154,7 +154,7 @@ export default function Projects() {
             >
               <div className="relative h-60 w-full overflow-hidden">
                 <Image
-                  src={project.image || "/placeholder.svg"}
+                  src={project.image || "/portfolio/placeholder.svg"}
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"

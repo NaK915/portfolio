@@ -89,7 +89,7 @@ export default function Contact() {
                   <span className="sr-only">LinkedIn</span>
                 </a>
                 <a
-                  href="/Resume_Naman.pdf"
+                  href="/portfolio/Resume_Naman.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-card hover:bg-secondary p-4 rounded-full border transition-colors"
