@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
-import passPhoto from "@/public/passsphoto.jpg";
+import passPhoto from "../public/passsphoto.jpg";
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false);
