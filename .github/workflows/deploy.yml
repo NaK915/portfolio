@@ -2,7 +2,7 @@ name: Deploy next portfolio to Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["next-v2"]
   workflow_dispatch:
 
 permissions:
