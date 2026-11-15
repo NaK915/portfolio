@@ -9,43 +9,39 @@ import { cn } from "@/lib/utils"
 const projects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Expense Splitting Application",
     description:
-      "A full-stack e-commerce platform with product listings, cart functionality, and secure checkout. Implemented responsive design and optimized for performance with user authentication, product filtering, cart management, and Stripe payment integration.",
-    image: "/placeholder.svg?height=600&width=800",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "Built a FastAPI/NextJS expense tracker with a custom debt reduction algorithm, integrating a local HuggingFace and LangChain vector search pipeline to achieve 95% categorization accuracy, while using MongoDB compound indexing for ledger retrieval",
+    image: "/expenses.png?height=600&width=800",
+    technologies: ["NextJS", "Python", "FastAPI", "MongoDB", "HuggingFace"],
+    githubUrl: "https://github.com/NaK915/Expenses-Backend-",
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "Access Restricted Group Vaults",
     description:
-      "A collaborative task management application with real-time updates, task assignment, and progress tracking features. Built with Firebase for real-time synchronization, drag-and-drop functionality, and email notifications for seamless team collaboration.",
-    image: "/placeholder.svg?height=600&width=800",
-    technologies: ["React", "Firebase", "Tailwind CSS", "Redux"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "Deployed a secure, full-stack file management system that leveraged Node.js and AWS S3 pre-signed URLs to guarantee safe, sub-second file retrieval for targeted group and individual sharing among 50+ users.",
+    image: "/argv1.png?height=600&width=800",
+    technologies: ["React", "Express", "MongoDB", "AWS S3"],
+    githubUrl: "https://gitlab.com/NaK915/argv-application",
   },
   {
     id: 3,
-    title: "Weather Dashboard",
+    title: "Training and Placement Portal",
     description:
-      "A weather dashboard that displays current weather conditions and forecasts for multiple locations with interactive visualizations. Features include location saving, unit conversion, and responsive charts using Chart.js and OpenWeather API integration.",
+      "Accelerate and Simplify Training and Placement processes by eliminating over 80% of labor-intensive manual work and implementing an automated system with role-based access control and information cross validation.",
     image: "/placeholder.svg?height=600&width=800",
-    technologies: ["JavaScript", "Chart.js", "OpenWeather API", "HTML/CSS"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    technologies: ["ReactJS", "ExpressJS", "NodeJS", "TypeScript", "JavaScript", "DynamoDB"],
+    githubUrl: "https://github.com/2ybaryl/TnP_Portal",
   },
   {
     id: 4,
-    title: "Personal Finance Tracker",
+    title: "JUET University Website",
     description:
-      "A finance tracking application that helps users monitor expenses, set budgets, and visualize spending patterns. Includes expense categorization, budget setting, CSV import functionality, and custom data visualizations using D3.js for clear financial insights.",
+      "Built a website using React, Express, JavaScript and MongoDB for the University with a custom CMS for managing and updating content with over 50+ custom actions.",
     image: "/placeholder.svg?height=600&width=800",
     technologies: ["React", "Node.js", "PostgreSQL", "D3.js"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/2ybaryl/JUET-frontend",
   },
 ]
 
@@ -109,16 +105,6 @@ export default function Projects() {
                       <Github className="h-5 w-5" />
                       <span className="sr-only">GitHub</span>
                     </a>
-
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-white text-black p-2 rounded-full"
-                    >
-                      <ExternalLink className="h-5 w-5" />
-                      <span className="sr-only">Live Demo</span>
-                    </a>
                   </div>
                 </div>
 
@@ -141,15 +127,6 @@ export default function Projects() {
                     >
                       <Github className="h-4 w-4 mr-1" />
                       GitHub
-                    </a>
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm font-medium text-primary hover:underline flex items-center"
-                    >
-                      <ExternalLink className="h-4 w-4 mr-1" />
-                      Live Demo
                     </a>
                   </div>
                 </div>
@@ -192,16 +169,6 @@ export default function Projects() {
                     <Github className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </a>
-
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-white text-black p-2 rounded-full"
-                  >
-                    <ExternalLink className="h-5 w-5" />
-                    <span className="sr-only">Live Demo</span>
-                  </a>
                 </div>
               </div>
 
@@ -224,15 +191,6 @@ export default function Projects() {
                   >
                     <Github className="h-4 w-4 mr-1" />
                     GitHub
-                  </a>
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm font-medium text-primary hover:underline flex items-center"
-                  >
-                    <ExternalLink className="h-4 w-4 mr-1" />
-                    Live Demo
                   </a>
                 </div>
               </div>

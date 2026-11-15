@@ -29,7 +29,7 @@ export default function About() {
             )}
           >
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a Software Engineer from India skilled in Full-Stack Development and DevOps tools
+              I'm a Software Engineer from India skilled in Full-Stack + AI Development and DevOps tools
               possessing a deep understanding of architectural and system design principles.
             </p>
           </div>
@@ -45,7 +45,7 @@ export default function About() {
                 <GraduationCap className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-bold text-lg mb-2">Education</h3>
-              <p className="text-muted-foreground">B.Tech CSE from Jaypee University of Engineering and Technology, Guna</p>
+              <p className="text-muted-foreground">B.Tech CSE from Jaypee University of Engineering and Technology</p>
             </div>
 
             <div
@@ -58,7 +58,7 @@ export default function About() {
                 <Briefcase className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-bold text-lg mb-2">Experience</h3>
-              <p className="text-muted-foreground">1 Year of Professional Development Experience</p>
+              <p className="text-muted-foreground">2 Years of Professional Development Experience</p>
             </div>
 
             <div
@@ -72,6 +72,7 @@ export default function About() {
               </div>
               <h3 className="font-bold text-lg mb-2">Specialization</h3>
               <p className="text-muted-foreground">Full-Stack Web Development</p>
+              <p className="text-muted-foreground">AI Software Development</p>
               <p className="text-muted-foreground">DevOps tools</p>
             </div>
           </div>

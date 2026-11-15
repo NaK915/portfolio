@@ -10,7 +10,7 @@ export default function Footer() {
               Naman<span className="text-primary">.</span>
             </p>
             <p className="text-sm text-muted-foreground mt-1">
-              © 2025 Naman Khattar. All Rights Reserved.
+              © {new Date().getFullYear()} Naman Khattar. All Rights Reserved.
             </p>
           </div>
 

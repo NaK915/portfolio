@@ -19,7 +19,7 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden"
     >
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-white -z-10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-white dark:from-background dark:to-background -z-10" />
 
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -117,7 +117,7 @@ export default function Hero() {
             )}
           >
             <div className="relative w-full max-w-md mx-auto">
-              <div className="relative w-60 h-60 rounded-full overflow-hidden border-4 border-white shadow-xl mx-auto">
+              <div className="relative w-60 h-60 rounded-full overflow-hidden border-4 border-background shadow-xl mx-auto">
                 <Image
                   src="/passsphoto.jpg"
                   alt="Naman Khattar"
@@ -127,7 +127,7 @@ export default function Hero() {
                 />
               </div>
 
-              <div className="mt-6 bg-white rounded-lg p-6 shadow-lg">
+              <div className="mt-6 bg-card rounded-lg p-6 shadow-lg">
                 <h3 className="text-lg font-bold mb-3">Quick Summary</h3>
                 <p className="space-y-2 text-sm text-muted-foreground">
                   Passionate and Versatile Full Stack Software Developer with 2

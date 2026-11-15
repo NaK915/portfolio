@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -58,9 +59,13 @@ export default function Navbar() {
               </Link>
             ))}
           </nav>
+          <div className="hidden md:flex">
+            <ModeToggle />
+          </div>
 
           {/* Mobile Navigation Toggle */}
-          <div className="flex items-center md:hidden">
+          <div className="flex items-center gap-2 md:hidden">
+            <ModeToggle />
             <Button variant="ghost" size="icon" onClick={toggleMenu}>
               {isOpen ? (
                 <X className="h-6 w-6" />

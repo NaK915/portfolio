@@ -13,18 +13,18 @@ const experiences = [
     company_logo: "dbox.png",
     duration: "June 2024 - April 2026",
     description:
-      "Working as a Backend Developer focusing on building scalable and robust web applications using PHP and Nodejs",
+      "Working as a Backend Developer focusing on building scalable and robust AI based web applications using Nodejs and PHP",
     achievements: [
-      "Decoupled long-running backend tasks from synchronous processing to an asynchronous AWS SQS architectural system with fault tolerance, preventing API failure and decreasing response times from minutes to under 500ms.",
-      "Engineered a semantic recommendation engine for 5,000+ courses, utilizing OpenAI embeddings to align user skill gaps, career trajectories, and interests with personalized learning paths.",
-      "Collaborated on a Neo4j-based Career Architecture system to map cross-role mobility, leveraging OpenAI embeddings to quantify skill overlaps and establish relations among 10000+ designations, reducing assessment time from days to minutes.",
-      "Designed end-to-end an event-driven notifications framework to automate 20+ unique task triggers and alerts, integrating with the core enterprise notification system via a scalable, decoupled architecture.",
-      "Orchestrated a large-scale settings migration for 1000+ enterprise clients, introducing a flexible configuration schema to support bespoke requirements and scalable multi-language aliasing.",
-      "Architected an LMS tracking framework to capture 20+ granular user behavioral events across development plans and learning paths & activities, enabling real-time progress mapping and data-driven insights for personalized learning journeys.",
-      "Leveraged Agentic AI for audit and refactoring of 25+ legacy database queries, reducing peak CPU utilization by 35%.",
-      "Expanded automated test suites for a multi-language (TypeScript/PHP) module, achieving a 15% gain in code coverage and decreasing production bug density through systematic regression testing.",
+      "Decoupled long-running backend tasks from synchronous processing to an asynchronous AWS SQS architectural system with fault tolerance, preventing API failure and decreasing response times from minutes to under 500ms",
+      "Engineered a semantic recommendation engine for 5,000+ courses, utilizing MongoDB Atlas Vector Search and OpenAI embeddings to dynamically map user skill gaps and career trajectories to personalized learning paths",
+      "Collaborated on a Neo4j knowledge graph orchestrated via LangChain to map cross-role mobility; incorporated OpenAI embeddings to quantify semantic skill overlaps across 10,000+ designations, reducing assessment time from days to minutes",
+      "Designed end-to-end an event-driven notifications framework to automate 20+ unique task triggers and alerts, integrating with the core enterprise notification system via a scalable, decoupled architecture",
+      "Orchestrated a large-scale settings migration for 1000+ enterprise clients, introducing a flexible configuration schema to support bespoke requirements and scalable multi-language aliasing",
+      "Architected an LMS tracking framework to capture 20+ granular user behavioral events across development plans and learning paths & activities, enabling real-time progress mapping and data-driven insights for personalized learning journeys",
+      "Leveraged Agentic AI for audit and refactoring of 25+ legacy database queries, reducing overall peak CPU utilization",
+      "Expanded automated test suites for a multi-language (TypeScript/PHP) module, achieving a 15% gain in code coverage and decreasing production bug density through systematic regression testing",
     ],
-    technologies: ["Express", "TypeScript", "PHP", "Yii", "Playwright", "SQS", "MongoDB"],
+    technologies: ["Express", "TypeScript", "PHP", "Yii", "Playwright", "SQS", "MongoDB", "FastAPI", "Recommendation Engines", "Semantic Search"],
   },
   {
     id: 2,
@@ -35,9 +35,9 @@ const experiences = [
     description:
       "Worked as a Software Engineering Intern, assisting in the development of web applications and learning industry best practices.",
     achievements: [
-      "Devised a standardized, framework-agnostic Document Viewer web component with Vanilla JS and Stencil.js to replace expensive third-party libraries, cutting operational costs by 60% and streamlining frontend development workflows.",
-      "Developed an internal file sharing system (React, Node.js, Express, AWS S3) featuring group/individual sharing capabilities; onboarded 50+ users while maintaining 99% uptime and sub-second file retrieval speeds.",
-      "Aced training tasks using 10+ technologies such as JavaScript, TypeScript, React, Express, MongoDB, PHP, Yii, Redis and AWS tools (EC2, ECS, SQS, S3, RDS, etc.) in collaboration with fellow team members.",
+      "Devised a standardized, framework-agnostic Document Viewer web component with Vanilla JS and Stencil.js to replace expensive third-party libraries, cutting operational costs by 60% and streamlining frontend development workflows",
+      "Developed a secure, full-stack internal file sharing system (React, Node.js, Express) utilizing AWS S3 pre-signed URLs to deliver safe, sub-second file retrieval and group/individual sharing capabilities for 80+ onboarded users",
+      "Aced training tasks using 10+ technologies such as JavaScript, TypeScript, React, Express, MongoDB, PHP, Yii, Redis and AWS tools (EC2, ECS, SQS, S3, RDS, etc.) in collaboration with fellow team members",
     ],
     technologies: ["JavaScript", "TypeScript", "PHP", "Redis", "Node.js", "Express", "MongoDB", "ReactJS", "Web APIs", "SQS", "EC2", "S3", "StencilJS"],
   },
@@ -45,7 +45,7 @@ const experiences = [
     id: 3,
     role: "Frontend Engineer Intern",
     company: "Siksti (now Slikk)",
-    company_logo: "slikk.png",
+    company_logo: "slikk.jpg",
     duration: "January 2023 - April 2023",
     description:
       "Worked as a Frontend Developer, single-handedly managing the admin portal and collaborating on the customer application.",
@@ -54,7 +54,7 @@ const experiences = [
       "Integrated CI/CD with AWS Beanstalk for continuous deployment of dashboard in development environment using GitHub Actions.",
       "Created website with SEO optimization with 92 score on Lighthouse and 96 score on PageSpeed Insights.",
     ],
-    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "Shopify"],
+    technologies: ["JavaScript", "TypeScript", "React", "React Native", "Material UI"],
   },
 ];
 

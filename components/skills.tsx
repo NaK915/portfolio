@@ -57,12 +57,24 @@ const skillCategories = [
     ],
   },
   {
+    title: "AI Development & Architecture",
+    icon: <Cpu className="h-6 w-6" />,
+    skills: [
+      "LangChain",
+      "LangGraph",
+      "ETL Pipelines",
+      "RAG",
+      "Semantic Search",
+      "Recommendation Engines",
+    ],
+  },
+  {
     title: "Testing & Tools",
     icon: <GitBranch className="h-6 w-6" />,
     skills: [
       "Jest",
-      "PHPUnit",
       "Playwright",
+      "PHPUnit",
       "XDebug",
       "Git",
       "Postman",
@@ -77,25 +89,13 @@ const skillCategories = [
     icon: <Terminal className="h-6 w-6" />,
     skills: [
       "GitHub Actions",
-      "Continuous Integration",
-      "Deployment",
-      "Monitoring",
-      "Docker",
-      "Kubernetes"
-    ],
-  },
-  {
-    title: "Platforms & Other Technologies",
-    icon: <Cpu className="h-6 w-6" />,
-    skills: [
-      "AWS",
-      "Linux",
+      "CI/CD",
       "SQS",
+      "AWS",
+      "Docker",
+      "Kubernetes",
       "WebSockets",
-      "SEO",
-      "GitHub",
-      "GitLab",
-      "Caching",
+      "Monitoring"
     ],
   },
 ];
